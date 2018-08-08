@@ -16,7 +16,13 @@
 
 //Code here
 
+var me = {
+  name: "Kaylin",
+  age: 24,
 
+}
+
+alert(me['name'])
 
 ////////// PROBLEM 2 //////////
 
@@ -27,7 +33,14 @@
 
 //Code here
 
-
+var favoriteThings = {
+  band: "Arctic Monkeys",
+  food: "pizza",
+  person: "Cody",
+  book: "Catcher",
+  movie: "Mulan",
+  holiday: "christmas"
+}
 
 /*
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
@@ -35,6 +48,8 @@
 
 //Code here
 
+favoriteThings.car = "fiesta st"
+favoriteThings.brand = "idk"
 
 
 /*
@@ -43,6 +58,8 @@
 
 //Code here
 
+favoriteThings.food = "Chicken Nuggets"
+favoriteThings.book = "Harry Potter"
 
 
 ////////// PROBLEM 3 //////////
@@ -57,7 +74,12 @@
 
 //Code here
 
+const backPack = {
 
+}
+
+var item = "firstPocket"
+backPack[item] = "chapstick"
 
 /*
   After you do the above, alert your entire backPack object.
@@ -65,6 +87,7 @@
 
 //Code here
 
+// alert (backPack)
 
 
 /*
@@ -75,7 +98,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 
-
+console.log(backPack)
 
 ////////// PROBLEM 4 //////////
 
@@ -100,7 +123,8 @@ var user2 = {
 
 
 
-
+user2.name = "Tyler S. McGinnis"
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
@@ -121,7 +145,9 @@ var user2 = {
 
 //Code Here
 
+var methodCollection = {
 
+}
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object. 
@@ -129,7 +155,9 @@ var user2 = {
 */
 
 //Code Here
-
+methodCollection.alertHello = function(){
+  log
+}
 
 
 /*
